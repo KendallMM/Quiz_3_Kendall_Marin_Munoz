@@ -47,7 +47,7 @@ public class Queue {
         queue.ShowES();
         System.out.println(queue.peek().getData());
     }
-    /**
+    /*
      * Author @Kendall Marín Muñoz
      * La implementación de la estructura Queue funciona correctamente y los resultados
      * al utilizar sus métodos fueron los esperados.
