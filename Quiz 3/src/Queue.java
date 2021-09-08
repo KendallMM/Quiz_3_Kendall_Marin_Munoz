@@ -10,8 +10,8 @@ public class Queue {
         this.queueList.insertLast(newElement);
     }
     // Method for dequeue
-    public Object dequeue() {
-        return this.queueList.deleteFirst();
+    public void dequeue() {
+        this.queueList.deleteFirst();
     }
     // Method for peek the object in the front of the list
     public Node peek() {
